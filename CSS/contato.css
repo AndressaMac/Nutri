@@ -1,0 +1,17 @@
+.contato{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.contatoTodo{
+  margin-left: 2rem;
+  width: 50%;
+}
+
+
+
+.formularioContato {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 4rem;
+}

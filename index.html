@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/formulario.css">
+  <link rel="stylesheet" href="./CSS/sobre.css">
+  <link rel="stylesheet" href="./CSS/contato.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  
+
+  <title>Document</title>
+</head>
+<header>
+  <nav class="navbar bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="#" alt="" width="30" height="24">
+    </a>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+     
+    </ul>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn btn-primary me-md-2" type="button">Button</button>
+    </div>
+  </div>
+  
+</nav>
+</header>
+<body> 
+  <div class="fundoFormulario">
+  <form class="formulario">
+    <input type="text" class="input" id="nome">
+    <input type="date" name="" id="dataNascimento" class="input">
+    <input type="number" class="input" id="peso">
+    <input type="number" class="input" id="altura">
+  </form>
+  <button class="butaoCalcular" onclick="validaNascimento()"></button>
+  <button class="whatssap" onclick="numeroW()"></button>
+  <div class="imagenDessert">
+    <img src="./CSS/imagens/Dessert.png" width="448px" height=" 435px">
+  </div>
+</div>
+
+<div class="sobre">
+  <h1>Sobre:</h1>
+  <p>Lorem ipsum dolor sit amet. Qui sunt esse ab necessitatibus placeat eum necessitatibus numquam et deserunt quas. Ea commodi unde et voluptate nesciunt id ipsum aperiam. 33 voluptates ipsa est beatae molestiae hic omnis assumenda id dolor porro id porro dolores. </p><p>Sed molestiae quia est saepe consectetur et illo quam qui rerum rerum 33 velit perspiciatis quo dolor internos. Et magni dignissimos vel doloremque internos et similique nulla et odio dicta. </p><p>Est distinctio autem cum facilis galisum aut soluta voluptatem sed quisquam vitae in accusantium ullam cum dolor eius. Et molestiae quas vel tempore doloremque rem atque beatae ad omnis nihil est nisi nihil est aspernatur doloremque ut quia eaque. Et galisum sunt qui harum dolore et minus modi et voluptatum harum qui iste amet ut corporis excepturi. </p>
+  
+</div>
+
+ <div class="contato">
+ <div class="contatoTodo">
+ <h1 class="contatoTitulo">Contato:</h1>
+ <p class="paragrafo">Se você já passou em vários nutricionistas, tentou inúmeras dietas, parece que não sabe o que comer e que o seu peso só aumenta, vamos marcar uma consulta online para que eu possa te mostrar o caminho para uma nutrição mais tranquila.
+ Faça seu acompanhamento de qualquer lugar do mundo! Entre em contato para mais informações!</p>
+</div>
+ <form class="formularioContato">
+  <label for="name" >Nome:</label>
+  <input type="text" id="name">
+  <label for="email">E-mail:</label>
+  <input type="email" name="" id="">
+  <label for="mensagen">Mensagem:</label>
+  <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+  <button>Enviar</button>
+ </form>
+
+ </div>
+ 
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+<footer>
+
+</footer>
+</html>

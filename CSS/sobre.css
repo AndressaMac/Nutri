@@ -1,0 +1,10 @@
+.sobre {
+
+  margin-top: 10rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  height: 600px;
+}
