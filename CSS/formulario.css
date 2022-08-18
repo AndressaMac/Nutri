@@ -14,7 +14,7 @@
 .input{
   margin-top: 2rem;
 }
-.butaoCalcular {
+.botaoCalcular {
   margin-top: 2rem;
   width: 25%;
   height: 4rem;
@@ -22,7 +22,7 @@
   border-style: none;
   margin-left: 2rem;
 }
-.butaoCalcular:hover{
+.botaoCalcular:hover{
  cursor: pointer;
 }
 
@@ -41,6 +41,12 @@
 
 
 .imagenDessert {
-  margin-top: 4rem;
+  
   margin-left: 35%;
+}
+
+.label {
+  color: whitesmoke;
+  font-family: 'Inter';
+
 }
